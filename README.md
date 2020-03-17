@@ -5,7 +5,7 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 Based on the debezium/postgres image, so it has change capture plugins installed.
 
 Building:
-docker build -t dexels/dvdrental:1 .
+docker build -t floodplain/postgres-debezium-dvdrental:1.0.0 .
 
 Usage:
 
